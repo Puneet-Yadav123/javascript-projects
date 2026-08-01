@@ -61,13 +61,13 @@ calculator/
 
 ## Usage
 
-| Button | Action |
-|--------|--------|
-| `0`–`9`, `00`, `.` | Enter digits and decimal point |
-| `+`, `-`, `*`, `/`, `%` | Arithmetic operators |
-| `=` | Evaluate the expression and show the result |
-| `AC` | Clear all input and reset the display |
-| `DEL` | Delete the last character |
+| Button                  | Action                                      |
+| ----------------------- | ------------------------------------------- |
+| `0`–`9`, `00`, `.`      | Enter digits and decimal point              |
+| `+`, `-`, `*`, `/`, `%` | Arithmetic operators                        |
+| `=`                     | Evaluate the expression and show the result |
+| `AC`                    | Clear all input and reset the display       |
+| `DEL`                   | Delete the last character                   |
 
 ## Tech Stack
 
@@ -84,7 +84,6 @@ calculator/
 - [ ] Keyboard support for number and operator keys
 - [ ] Add history of previous calculations
 - [ ] Support for parentheses and advanced operations
-
 
 ## Author
 
