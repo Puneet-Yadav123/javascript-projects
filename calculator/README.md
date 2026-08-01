@@ -82,13 +82,9 @@ calculator/
 ## Future Improvements
 
 - [ ] Keyboard support for number and operator keys
-- [ ] Replace `eval()` with a safer expression parser
 - [ ] Add history of previous calculations
 - [ ] Support for parentheses and advanced operations
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## Author
 
