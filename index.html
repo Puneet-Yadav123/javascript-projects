@@ -1,112 +1,120 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JavaScript Projects</title>
 
     <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, Helvetica, sans-serif;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-        body{
-            min-height:100vh;
-            background:#0f172a;
-            color:white;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            padding:40px;
-        }
+      body {
+        min-height: 100vh;
+        background: #0f172a;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+      }
 
-        .container{
-            width:100%;
-            max-width:1000px;
-        }
+      .container {
+        width: 100%;
+        max-width: 1000px;
+      }
 
-        h1{
-            text-align:center;
-            font-size:3rem;
-            margin-bottom:10px;
-        }
+      h1 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 10px;
+      }
 
-        p{
-            text-align:center;
-            color:#cbd5e1;
-            margin-bottom:40px;
-        }
+      p {
+        text-align: center;
+        color: #cbd5e1;
+        margin-bottom: 40px;
+      }
 
-        .projects{
-            display:grid;
-            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-            gap:25px;
-        }
+      .projects {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 25px;
+      }
 
-        .card{
-            background:#1e293b;
-            border-radius:15px;
-            padding:25px;
-            transition:0.3s;
-        }
+      .card {
+        background: #1e293b;
+        border-radius: 15px;
+        padding: 25px;
+        transition: 0.3s;
+      }
 
-        .card:hover{
-            transform:translateY(-5px);
-        }
+      .card:hover {
+        transform: translateY(-5px);
+      }
 
-        .card h2{
-            margin-bottom:10px;
-        }
+      .card h2 {
+        margin-bottom: 10px;
+      }
 
-        .card p{
-            text-align:left;
-            margin-bottom:20px;
-            color:#cbd5e1;
-        }
+      .card p {
+        text-align: left;
+        margin-bottom: 20px;
+        color: #cbd5e1;
+      }
 
-        .btn{
-            display:inline-block;
-            text-decoration:none;
-            color:white;
-            background:#2563eb;
-            padding:10px 18px;
-            border-radius:8px;
-            transition:0.3s;
-        }
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        color: white;
+        background: #2563eb;
+        padding: 10px 18px;
+        border-radius: 8px;
+        transition: 0.3s;
+      }
 
-        .btn:hover{
-            background:#1d4ed8;
-        }
+      .btn:hover {
+        background: #1d4ed8;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
+    <div class="container">
+      <h1>JavaScript Projects</h1>
 
-<div class="container">
+      <p>A collection of mini projects built while learning JavaScript.</p>
 
-    <h1>JavaScript Projects</h1>
-
-    <p>A collection of mini projects built while learning JavaScript.</p>
-
-    <div class="projects">
-
+      <div class="projects">
         <div class="card">
-            <h2>🧮 Calculator</h2>
+          <h2>🧮 Calculator</h2>
 
-            <p>
-                A responsive calculator built using HTML, CSS, and JavaScript.
-            </p>
+          <p>A responsive calculator built using HTML, CSS, and JavaScript.</p>
 
-            <a href="https://puneet-yadav123.github.io/javascript-projects/calculator/" class="btn">
-                Open Project
-            </a>
+          <a
+            href="https://puneet-yadav123.github.io/javascript-projects/calculator/"
+            class="btn"
+          >
+            Open Project
+          </a>
         </div>
 
+        <div class="card">
+          <h2>Weather app</h2>
+
+          <p>A responsive weather app built using HTML, CSS, and JavaScript.</p>
+
+          <a
+            href="https://puneet-yadav123.github.io/javascript-projects/weather-app/"
+            class="btn"
+          >
+            Open Project
+          </a>
+        </div>
+      </div>
     </div>
-
-</div>
-
-</body>
+  </body>
 </html>
