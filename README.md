@@ -14,6 +14,7 @@ The goal of this repository is to strengthen my JavaScript fundamentals by build
 
 - Calculator
 - Weather App
+- Notes App
 - More projects coming soon...
 
 ## 🎯 Learning Focus
